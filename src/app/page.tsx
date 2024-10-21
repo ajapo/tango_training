@@ -1,9 +1,10 @@
-import Link from "next/link";
+"use client";
+import Form from "../practice_test/components/Form";
 
 export default function Home() {
   return (
     <div>
-      <Link href="/tango_test">単語テスト</Link>
+      <Form />
     </div>
   );
 }
